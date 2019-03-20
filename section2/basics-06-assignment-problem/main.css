@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#assignment-instructions {
+    color: silver;
+    font-family: sans-serif;
+}
+
+/* li {
+    font-family: inherit;
+} */
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.second-li {
+    color: green;
+}
+
+ol > li {
+    background-color: black;
+    color: white;
+}
+
+li + li {
+    background-color: black;
+    color: white;
+}
+
