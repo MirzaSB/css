@@ -10,3 +10,31 @@
 .package > a {
     text-decoration: none;
 }
+
+.package__title {
+    padding-top: 15px;
+    color: black;
+    font-size: 1.2em;
+}
+
+.package__subtitle {
+    color: #a4a4a4;
+    font-size: 1em;
+}
+
+.package__info {
+    color: green;
+    background: white;
+    border: 1.8px groove #a4a4a4;
+    width: 98%;
+    padding: 8px;
+    font-size: 0.9em;
+}
+
+#premium {
+    background: #0e4f1f;
+}
+
+#premium h1 {
+    color: white;
+}
