@@ -1,0 +1,17 @@
+/* Error: There is no module with the namespace "map".
+ *   ,
+ * 3 | $border-default: 0.05rem solid map.get($colors, main);
+ *   |                                ^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   main.scss 3:32  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: There is no module with the namespace "map".\a   \2577 \a 3 \2502  $border-default: 0.05rem solid map.get($colors, main);\a   \2502                                 ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   main.scss 3:32  root stylesheet';
+}
